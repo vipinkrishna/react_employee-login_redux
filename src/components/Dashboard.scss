@@ -1,0 +1,37 @@
+.EmployeeList {
+    width: 80%;
+    Table {
+        box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 18px;
+        td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+    }
+}
+
+.Logout {
+    margin-top: 20px;
+    button {
+        padding: 10px 30px;
+        border-radius: 20px;
+        outline: none;
+        font-size: 18px;
+        border: none;
+        letter-spacing: 2px;
+        background-color: #eee;
+        cursor: pointer;
+        &:hover {
+            background-color: #ddd;
+        }
+        &:active {
+            background-color: #ccc;
+        }
+    }
+}
